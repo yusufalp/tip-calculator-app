@@ -35,6 +35,10 @@
     </style>
   </head>
   <body>
+    <div id="title">
+      <p>SPLI</p>
+      <p>TTER</p>
+    </div>
     <div class="container">
       <div>
         <div class="bill-section">
@@ -82,26 +86,28 @@
       <p class="divider"></p>
 
       <div class="result-section">
-        <div class="result-section-container">
-          <div>
-            <p>Tip Amount</p>
-            <p>/ person</p>
+        <div>
+          <div class="result-section-container">
+            <div class="result-section-container-text">
+              <p>Tip Amount</p>
+              <p class="opaque-text">/ person</p>
+            </div>
+            <div>
+              <p id="tipPerPerson">$0.00</p>
+            </div>
           </div>
-          <div>
-            <p id="tipPerPerson">$0.00</p>
-          </div>
-        </div>
 
-        <div class="result-section-container">
-          <div>
-            <p>Total</p>
-            <p>/ person</p>
-          </div>
-          <div>
-            <p id="totalPerPerson">$0.00</p>
+          <div class="result-section-container">
+            <div class="result-section-container-text">
+              <p>Total</p>
+              <p class="opaque-text">/ person</p>
+            </div>
+            <div>
+              <p id="totalPerPerson">$0.00</p>
+            </div>
           </div>
         </div>
-        <input type="button" value="Reset" />
+        <input id="resetButton" type="button" value="Reset" />
       </div>
     </div>
 
